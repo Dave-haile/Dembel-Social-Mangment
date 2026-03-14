@@ -19,43 +19,52 @@ export const ICON_MAP: Record<string, any> = {
 }
 
 export const STATIC_LINKS = [
-    {
-        id: 1,
-        title: "Facebook",
-        subtitle: "Follow us for updates",
-        url: "https://facebook.com",
-        icon: "web",
-        active: true,
-        clicks: 0
-    },
-    {
-        id: 2,
-        title: "Instagram",
-        subtitle: "Latest events & shops",
-        url: "https://instagram.com",
-        icon: "instagram",
-        active: true,
-        clicks: 0
-    },
-    {
-        id: 3,
-        title: "Telegram",
-        subtitle: "Join our channel",
-        url: "https://t.me",
-        icon: "telegram",
-        active: true,
-        clicks: 0
-    },
-    {
-        id: 4,
-        title: "Website",
-        subtitle: "Visit our official site",
-        url: "https://example.com",
-        icon: "web",
-        active: true,
-        clicks: 0
-    }
-]
+  // {
+  //     id: 1,
+  //     title: "Facebook",
+  //     subtitle: "Follow us for updates",
+  //     url: "https://facebook.com",
+  //     icon: "web",
+  //     active: true,
+  //     clicks: 0
+  // },
+  {
+    id: 2,
+    title: "Instagram",
+    subtitle: "Latest events & shops",
+    url: "https://www.instagram.com/dembelcitycenter/",
+    icon: "instagram",
+    active: true,
+    clicks: 0,
+  },
+  // {
+  //     id: 3,
+  //     title: "Telegram",
+  //     subtitle: "Join our channel",
+  //     url: "https://t.me",
+  //     icon: "telegram",
+  //     active: true,
+  //     clicks: 0
+  // },
+  {
+    id: 4,
+    title: "Website",
+    subtitle: "Visit our official site",
+    url: "http://dembelcitycenter.yencomad.com/",
+    icon: "web",
+    active: true,
+    clicks: 0,
+  },
+  {
+    id: 5,
+    title: "Twitter/X",
+    subtitle: "Follow us for updates",
+    url: "https://x.com/dembelmall",
+    icon: "twitter",
+    active: true,
+    clicks: 0,
+  },
+];
 
 export const STATIC_SETTINGS = {
     profile_name: "Dembel City Center",
